@@ -2,11 +2,14 @@ name: "Bug Report"
 description: "Create a report to help us improve"
 title: "[Bug]: "
 labels: ["bug"]
+
 body:
+
   - type: markdown
     attributes:
       value: |
         **Thank you for taking the time to fill out this bug report!**
+
   - type: textarea
     id: bug-description
     attributes:
@@ -15,6 +18,7 @@ body:
       placeholder: e.g. When I try to upload a file, I get an unexpected error message.
     validations:
       required: true
+
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -23,6 +27,7 @@ body:
       placeholder: List the steps here.
     validations:
       required: false
+
   - type: textarea
     id: expected-behavior
     attributes:
@@ -31,36 +36,43 @@ body:
       placeholder: e.g. The file should upload successfully and return a transaction ID.
     validations:
       required: false
+
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots or stack traces
       description: If applicable, add screenshots or stack traces to help explain your problem.
+
   - type: input
     id: environment
     attributes:
       label: Environment
       description: e.g. node, browser
+
   - type: input
     id: sdk-version
     attributes:
       label: SDK Version
       description: e.g. 22
+
   - type: input
     id: node-version
     attributes:
       label: Node Version
       description: e.g. 10.16.3
+
   - type: input
     id: browser
     attributes:
       label: Browser
       description: e.g. chrome, safari
+
   - type: textarea
     id: additional-context
     attributes:
       label: Additional context
       description: Add any other context about the problem here.
+      
   - type: input
     id: public-code-link
     attributes:

@@ -37,14 +37,14 @@ body:
     validations:
       required: false
 
-    - type: textarea
-      id: workaround
-      attributes:
-        label: Workaround
-        description: If you have a workaround for the bug, please explain it here.
-        placeholder: List the workaround here.
-      validations:
-        required: false
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Workaround
+      description: If you have a workaround for the bug, please explain it here.
+      placeholder: List the workaround here.
+    validations:
+      required: false
 
   - type: textarea
     id: screenshots

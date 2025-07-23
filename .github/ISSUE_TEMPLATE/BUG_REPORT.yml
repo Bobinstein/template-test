@@ -1,87 +1,16 @@
-name: 'Bug Report'
-description: Create a report to help us improve
-title: ''
-labels: [bug]
-assignees: []
-
+name: "Bug Report"
+description: "File a bug report"
+title: "[Bug]: "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        **Thank you for taking the time to fill out this bug report!**
-
+        Thanks for reporting a bug!
   - type: textarea
-    id: bug_description
+    id: what-happened
     attributes:
-      label: Describe the bug
-      description: A clear and concise description of what the bug is.
-      placeholder: |
-        e.g. When I try to upload a file, I get an unexpected error message.
+      label: What happened?
+      description: Describe the bug.
     validations:
       required: true
-
-  - type: textarea
-    id: steps_to_reproduce
-    attributes:
-      label: To Reproduce
-      description: Steps to reproduce the behavior:
-      placeholder: |
-        1. Import client '....'
-        2. Use API '....'
-        3. Request data '...'
-        4. See error
-    validations:
-      required: false
-
-  - type: textarea
-    id: expected_behavior
-    attributes:
-      label: Expected behavior
-      description: A clear and concise description of what you expected to happen.
-      placeholder: |
-        e.g. The file should upload successfully and return a transaction ID.
-    validations:
-      required: false
-
-  - type: textarea
-    id: screenshots
-    attributes:
-      label: Screenshots or stack traces
-      description: If applicable, add screenshots or stack traces to help explain your problem.
-
-  - type: input
-    id: environment
-    attributes:
-      label: Environment
-      description: e.g. node, browser
-
-  - type: input
-    id: sdk_version
-    attributes:
-      label: SDK Version
-      description: e.g. 22
-
-  - type: input
-    id: node_version
-    attributes:
-      label: Node Version
-      description: e.g. 10.16.3
-
-  - type: input
-    id: browser
-    attributes:
-      label: Browser
-      description: e.g. chrome, safari
-
-  - type: textarea
-    id: additional_context
-    attributes:
-      label: Additional context
-      description: Add any other context about the problem here.
-
-  - type: input
-    id: public_code_link
-    attributes:
-      label: Public code repository link
-      description: If possible, provide a link to any publicly available code base that can be used to recreate the issue (e.g., GitHub, GitLab, etc.).
-      placeholder: https://github.com/example/repo

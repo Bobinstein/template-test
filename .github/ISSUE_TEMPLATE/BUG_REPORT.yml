@@ -49,8 +49,8 @@ body:
   - type: textarea
     id: screenshots
     attributes:
-      label: Screenshots or stack traces
-      description: If applicable, add screenshots or stack traces to help explain your problem.
+      label: Screenshots or stack traces (logs)
+      description: If applicable, add screenshots or stack traces(logs) to help us understand what happened.
 
   - type: input
     id: environment

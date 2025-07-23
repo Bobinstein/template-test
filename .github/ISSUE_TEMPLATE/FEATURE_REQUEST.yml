@@ -8,7 +8,7 @@ body:
       value: |
         **Please search for existing issues before submitting a new feature request.**
 
-        Also see our [CONTRIBUTING](https://github.com/Bobinstien/template-test/blob/main/CONTRIBUTING.md) guidelines if applicable.
+        Also see our [CONTRIBUTING](https://github.com/Bobinstein/template-test/blob/main/CONTRIBUTING.md) guidelines if applicable.
   - type: textarea
     id: problem-description
     attributes:

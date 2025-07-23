@@ -19,7 +19,7 @@ body:
     id: steps-to-reproduce
     attributes:
       label: To Reproduce
-      description: Steps to reproduce the behavior. Example: 1. Import client '....' 2. Use API '....' 3. Request data '...' 4. See error
+      description: Steps to reproduce the behavior. 
       placeholder: List the steps here.
     validations:
       required: false

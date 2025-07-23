@@ -8,7 +8,7 @@ body:
       value: |
         **Please search for existing issues before submitting a new feature request.**
 
-        Also see CONTRIBUTING guidelines if applicable.
+        Also see our [CONTRIBUTING](../../CONTRIBUTING.md) guidelines if applicable.
   - type: textarea
     id: problem-description
     attributes:
